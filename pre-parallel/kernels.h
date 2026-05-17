@@ -9,6 +9,9 @@
 // Kernel function prototypes
 //__global__ void test_kernel();
 
+#ifndef KERNELS_H
+#define KERNELS_H
+
 
 __global__
 void forward_layer(
@@ -75,3 +78,5 @@ void update_bias(
     float *bias,
     float *delta,
     int size);
+
+#endif

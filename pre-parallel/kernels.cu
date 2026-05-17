@@ -7,6 +7,11 @@
  *  Example:
  *     __global__ void test_kernel(){}
  */
+#include <cuda.h>
+#include <math.h>
+#include "config.h"
+#include "kernels.h"
+
 
 
  __global__
