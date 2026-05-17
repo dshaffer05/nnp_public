@@ -1,0 +1,15 @@
+Script started on Sat May 16 20:50:23 2026
+]0;dshaffer@:~/nnp_public/pre-parallel[?1034h[dshaffer@r2v01 pre-parallel]$ srun nnp
+Usage: nnp [train|predict]
+	Note: predict requires a previously trained model in the directory named model.bin
+]0;dshaffer@:~/nnp_public/pre-parallel[dshaffer@r2v01 pre-parallel]$ srun nnp train
+Epoch 0 complete
+Epoch 1 complete
+Epoch 2 complete
+Epoch 3 complete
+Epoch 4 complete
+Trained model in 31 seconds
+]0;dshaffer@:~/nnp_public/pre-parallel[dshaffer@r2v01 pre-parallel]$ exit
+exit
+
+Script done on Sat May 16 20:51:23 2026
